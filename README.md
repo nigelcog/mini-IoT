@@ -17,3 +17,13 @@ The goal of this experiment is to demonstrate the flexibility and power of the a
 7. Run the android project in your android device(I haven't tested in the emulator but i think it should work fine. Use Android 4.1 and above).
 8. Connect your Android device via WiFi in the same network as your Laptop/PC.
 9. Run and test the app. When clicked on a particular card it should turn the devices on and off(Check Android monitor for Logcat message from the server and for any other error).
+
+<b>Arduino Connection Instructions:</b>
+
+1. You need to know arduino basics to assemble the circuit. Here Arduino UNO, a breadboard, Arduino specific USB cable and some wrires are used.
+2. The circuit is very simple. You can create your own or use mine from this video: https://www.youtube.com/watch?v=8IcIdlPqmwo
+3. Pins used are 8,12,13 and ground(the pin after 13).
+4. Pin 8 is used for Light, pin 12 for Fan and pin 13 for sound. But you can use any pin for any purpose you choose.
+5. Data A,B and c(small case) is being passed from the Android app to php to the arduino when you click any particular card.
+6. Each data corresponds to a Pin and thus turns it on or off.
+

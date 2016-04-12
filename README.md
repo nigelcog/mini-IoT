@@ -7,5 +7,8 @@ The goal of this experiment is to demonstrate the flexibility and power of the a
 
 <b>Instructions to make the project running:</b>
 
-1. Upload the php files in the php folder to your XAMPP server in "htdocs/your_folder_name" and start the server(Apache and MySQL).
-2. 
+1. Open the Arduino code in the Arduino folder into your Arduino IDE and upload it to the Arduino UNO board.
+2. In the Arduino IDE check the COM port of your Arduino and update it in "device.php" file in the php folder.
+2. Upload the php files in the php folder to your XAMPP server in "htdocs/your_folder_name" and start the server(Apache and MySQL).
+3. 
+4. 
